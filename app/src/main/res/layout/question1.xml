@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="1.Your gender is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rg">
+
+        <RadioButton
+            android:text="  boy"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdBtn1"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="  gril"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rdBtn2"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <TextView
+        android:text="Your answer is: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2"
+        android:textSize="25sp"/>
+
+    <Button
+        android:text="Next"
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/button" />
+</LinearLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="3.Which province do you want to work at?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:text="  Beijing"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cb1"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="  Shanghai"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cb2"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="  Guangzhou"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cb3"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="  Jiangsu"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cb4"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="  Zhejiang"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cb5"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="  Sichuan"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cb6"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:text="  Chongqing"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cb7"
+                android:layout_weight="1" />
+
+
+            <CheckBox
+                android:text="  Others"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cb8"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Your answer is: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text="Next"
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button" />
+</LinearLayout>
+
+<!--<CheckBox
+                    android:text="  Beijing"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Shanghai"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb2"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Guangzhou"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb3"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Jiangsu"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb4"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Zhejiang"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb5"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Sichuan"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb6"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Chongqing"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb7"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Shandong"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb8"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Hebei"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb9"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Jiangxi"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb10"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Hunan"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb11"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Henan"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb12"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:text="  Others"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/cb13"
+                    android:layout_weight="1" />-->
